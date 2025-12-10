@@ -49,3 +49,34 @@
             margin-bottom: 30px;  
         }
 
+        @media (max-width: 500px) {
+            .quotehd {
+                text-align: center;
+                margin: 30px;
+                font-size: 2rem;
+                color: #e8b139;
+            }
+
+            main img {
+                width: 350px;
+                height: auto;
+                border-radius: 25px;
+                box-shadow:#e8b139 0px 0px 5px 3px;
+            }
+
+            .context-p {
+                margin: 30px;
+                font-size: 1.5rem;
+                font-style: italic;
+                font-weight: bold;
+                color: #e8b139;
+                text-align: center;
+            }
+
+            .hint {
+                font-size: 0.7rem;
+                font-weight: bold;
+                font-style: italic;
+                color: hsla(45, 75%, 49%, 0.715);
+            }
+        }   
