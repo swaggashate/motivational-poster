@@ -1,0 +1,48 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Cantora One', sans-serif;
+            background: radial-gradient(circle, #525252,#000);
+            height: 100vh;
+            width: 100vw;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .quotehd {
+            text-align: center;
+            margin: 30px;
+            font-size: 3rem;
+            color: #e8b139;
+        }
+
+        main img {
+            width: 400px;
+            height: auto;
+            border-radius: 25px;
+            box-shadow:#e8b139 0px 0px 5px 3px;
+        }
+
+        .context-p {
+            margin: 30px;
+            font-size: 1.9rem;
+            font-style: italic;
+            font-weight: bold;
+            color: #e8b139;
+        }
+
+        .hint {
+            font-size: 1rem;
+            font-weight: bold;
+            font-style: italic;
+            color: hsla(45, 75%, 49%, 0.715);
+        }
