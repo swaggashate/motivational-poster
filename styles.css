@@ -38,6 +38,7 @@
             font-style: italic;
             font-weight: bold;
             color: #e8b139;
+            text-align: center;   
         }
 
         .hint {
@@ -45,4 +46,6 @@
             font-weight: bold;
             font-style: italic;
             color: hsla(45, 75%, 49%, 0.715);
+            margin-bottom: 30px;  
         }
+
