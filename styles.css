@@ -32,6 +32,11 @@
             box-shadow:#e8b139 0px 0px 5px 3px;
         }
 
+        main img:hover {
+            transform: scale(1.02);
+            transition: all 0.2s ease-in-out;
+        }      
+
         .context-p {
             margin: 30px;
             font-size: 1.9rem;
@@ -80,3 +85,4 @@
                 color: hsla(45, 75%, 49%, 0.715);
             }
         }   
+
